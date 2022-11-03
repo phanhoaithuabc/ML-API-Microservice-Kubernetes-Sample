@@ -51,10 +51,10 @@ Project goal is to operationalize Machine learning microservice using [kubernete
 * Run via kubectl
 
 ## Improve Logging & Save Output
-Logging is an important part of debugging and understandability. Many times, logs will be how engineers figure out what an app is doing as it processes some input. We print out the output prediction values.
+* Logging is an important part of debugging and understandability. Many times, logs will be how engineers figure out what an app is doing as it processes some input. We print out the output prediction values.
 
-Create docker_out.txt, copy and paste this terminal output, which has log info, in a text file docker_out.txt.
+* Create docker_out.txt, copy and paste this terminal output, which has log info, in a text file docker_out.txt.
 
-The docker_out.txt file should include all your log statements plus a line that reads something like ”POST /predict HTTP/1.1” 200 - The 200 is a standard value indicating the good “health” of an interaction.
+* The docker_out.txt file should include all your log statements plus a line that reads something like ”POST /predict HTTP/1.1” 200 - The 200 is a standard value indicating the good “health” of an interaction.
 
-Copy the text output after calling run_kubernetes.sh and paste it into a file kubernetes_out.txt. This will be the second (out of two) text files that are required for submission. This output might look quite different from docker_out.txt; this new file should include your pod’s name and status, as well as the port forwarding and handling text.
+* Copy the text output after calling run_kubernetes.sh and paste it into a file kubernetes_out.txt. This will be the second (out of two) text files that are required for submission. This output might look quite different from docker_out.txt; this new file should include your pod’s name and status, as well as the port forwarding and handling text.
